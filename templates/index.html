@@ -1,0 +1,24 @@
+<!-- role_selection.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Selection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="choose-card">
+    <h1>Welcome to the Roleplay Game</h1>
+
+    <h2>Choose a Category</h2>
+
+    <ul>
+        {% for category in categories %}
+            <li><a href="{{ url_for('roleplay_selection', category=category) }}">{{ category }}</a></li>
+        {% endfor %}
+    </ul>
+    </div>
+
+</body>
+</html>

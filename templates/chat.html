@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+        /* Load Open Sans from Google Fonts */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            /* Other global styles for your body */
+        }
+    </style>
+
+    <title>Chat Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+<div class="grid-container">
+    <div class="info-container"> <h1>{{ gameinfo.title }}</h1>
+        <div class="info-card">
+            <h2>User's - Things to Know</h2>
+            <ul>
+                <li>{{ gameinfo.user_role }}</li>
+                <li>{{ gameinfo.objectives[0] }}</li>
+                <li>{{ gameinfo.win_conditions[0]}}</li>
+            </ul>
+            <h2>Ai's - Tasks</h2>
+            <ul>
+                <li>{{ gameinfo.ai_role }}</li>
+                <li>{{ gameinfo.objectives[1] }}</li>
+                <li>{{ gameinfo.win_conditions[1] }}</li>
+            
+            </ul>   
+        </div>
+    </div>
+
+    <div class="message-container">
+        <div id="messageHistory" class="message-history">
+            <p><strong>Message History</strong></p>
+            <div id="usermessage" class="message user">         <h2><strong>Scene:       </strong> </h2> <p> {{ gameinfo.scenario }}</p></div>
+            <div id="aimessage" class="message ai">         <h2><strong>Scene:       </strong> </h2> <p> {{ gameinfo.scenario }}</p></div>
+        </div>
+
+        <div class="message-input">
+            <form id="messageForm">
+                <input type="text" id="messageInput" name="message" placeholder="Type your message here">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="win-check-container">
+        <div id="winChecks" class="win-checks">
+            <p><strong>Win Check</strong></p>
+            <button type="button" id="winCheckButton">Check Win</button>
+            <p id="winCheck"></p>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p>Created by: ❤️Benny❤️</p>
+</div>
+    <script type="text/javascript" charset="utf-8">
+        var socket = io();
+
+        function appendMessage(sender, message) {
+            var messageHistory = document.getElementById("messageHistory");
+            var messageParagraph = document.createElement("p");
+            var messageText = document.createTextNode(message);
+            messageParagraph.appendChild(messageText);
+            if (sender == "user") {
+                messageParagraph.setAttribute("id", "usermessage");
+                messageParagraph.setAttribute("class", "message user");
+
+            } else if (sender == "ai") {
+                messageParagraph.setAttribute("id", "aimessage");
+                messageParagraph.setAttribute("class", "message ai");
+            }
+            messageHistory.appendChild(messageParagraph);
+            messageHistory.scrollTop = messageHistory.scrollHeight;
+        }
+        
+        function sendMessage(event) {
+            event.preventDefault();
+            var messageInput = document.getElementById("messageInput");
+            var message = messageInput.value;
+            socket.emit("message",{"message": message});
+            messageInput.value = "";
+            appendMessage("user", message);
+        }
+
+        function checkWin() {
+            socket.emit('win_check',{'win_check': 'win_check'});
+        }
+
+        socket.on('connect', function() {
+            socket.emit('my event', {data: 'I\'m connected!'});
+        });
+
+        socket.on('message', function(msg) {
+            if (msg.message) {
+                appendMessage("ai", msg.message);
+            } else if (msg.win_check) {
+
+                var winCheck = document.getElementById("winCheck");
+                winCheck.innerHTML = msg.win_check;
+            }
+        });
+
+
+        document.getElementById("messageForm").addEventListener("submit", sendMessage);
+        document.getElementById("winCheckButton").addEventListener("click", checkWin);
+    
+    </script>
+</body>
+</html>
