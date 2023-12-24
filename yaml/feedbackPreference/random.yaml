@@ -1,0 +1,17 @@
+random_feedback:
+  enabled: true
+  frequency: "random"  # Could be set to specific intervals like 'every 5 messages' or 'once per conversation'
+  trigger_condition: "random"  # Can be set to trigger on specific conditions if needed
+  feedback_details:
+    tone_analysis: true
+    conversation_flow_analysis: true
+    topic_relevance_engagement: true
+    empathy_understanding_indicators: true
+    conflict_resolution_management: true
+    personalization_contextual_relevance: true
+    cultural_social_sensitivity: true
+    goal_oriented_feedback: true
+    questioning_techniques_feedback: true
+    last_message_impact_analysis: true
+    additional_insights: true
+  feedback_prompt: "Random feedback time! Let's review your recent interaction:"

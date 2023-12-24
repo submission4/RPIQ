@@ -1,0 +1,16 @@
+live_feedback:
+  enabled: true
+  after_each_message: true
+  feedback_details:
+    tone_analysis: true
+    conversation_flow_analysis: true
+    topic_relevance_engagement: true
+    empathy_understanding_indicators: true
+    conflict_resolution_management: true
+    personalization_contextual_relevance: true
+    cultural_social_sensitivity: true
+    goal_oriented_feedback: true
+    questioning_techniques_feedback: true
+    last_message_impact_analysis: true
+    additional_insights: true
+  feedback_prompt: "Here's live feedback on your last interaction:"
