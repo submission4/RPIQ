@@ -1,0 +1,23 @@
+category: Soft Skills Training
+game_data: null
+objectives:
+  role-one:
+  - Lead the team towards successful project completion.
+  role-two:
+  - Contribute effectively to the team project.
+roles:
+  role-one:
+    name: Project Manager
+    type: Coordinator
+  role-two:
+    name: Team Member
+    type: Collaborator
+scenario:
+- A scenario that focuses on working together effectively to achieve a common goal.
+title: Team Collaboration Challenge
+win_check: null
+win_conditions:
+  role-one:
+  - Ensure smooth collaboration and timely project completion.
+  role-two:
+  - Actively participate and contribute to the team's success.

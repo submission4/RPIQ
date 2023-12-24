@@ -1,0 +1,41 @@
+}# FILEPATH: /c:/Users/submi/OneDrive/Documents/pythonProjects/rpiq/RPIQ/json/static/wincheckprompt.yaml
+EvaluationTask: "Evaluate user interaction"
+Metrics:
+    Relevance: 
+        score: 1-5
+        feedback: "Rate how the interaction aligns with the original prompt (1-5)"
+    Clarity: "Assess the clarity of the user's instructions or questions (1-5)"
+        score: 1-5
+        feedback: "Rate how clear the user's instructions or questions are (1-5)"
+    completeness: "Evaluate if all necessary details are provided (1-5)"
+        score: 1-5
+        feedback: "Evaluate if all necessary details are provided (1-5)"
+    Logic: "Gauge the logic behind the user's statements (1-5)"
+        score: 1-5
+        feedback: "Gauge the logic behind the user's statements (1-5)"
+    Creativity: "Rate the user's creativity and exploration (1-5)"
+        score: 1-5
+        feedback: "Rate the user's creativity and exploration (1-5)"
+    Engagement: "Assess user engagement with model responses (1-5)"
+        score: 1-5
+        feedback: "Assess user engagement with model responses (1-5)"
+    Politeness: "Evaluate the politeness and tone of the interaction (1-5)"
+        score: 1-5
+        feedback: "Evaluate the politeness and tone of the interaction (1-5)" 
+    Adaptability: "Determine adaptability to model's outputs (1-5)"
+        score: 1-5
+        feedback: "Determine adaptability to model's outputs (1-5)"
+    Language: "Check appropriateness of the language used (1-5)"
+        score: 1-5
+        feedback: "Check appropriateness of the language used (1-5)"
+    Effectiveness: "Give an overall effectiveness rating (1-5)"
+        score: 1-5
+        feedback: "Give an overall effectiveness rating (1-5)"
+AnalysisOfWinConditions: "Review user's interaction history to assess win conditions"  
+WinAssessment:
+    Winner: "Name or description of the winner, if applicable"
+    ReasonForWin: "Explanation of what led to the win"
+    PercentageMetrics:
+        Role1: "Percentage success rate for Role 1"
+        Role2: "Percentage success rate for Role 2"
+ResponseFormat: "Provide scores and brief feedback for each metric, determine the winner, and explain the reason for the win with percentage metrics for each role, formatted as a yaml object"

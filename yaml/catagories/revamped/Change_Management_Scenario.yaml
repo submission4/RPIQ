@@ -1,0 +1,45 @@
+category: Advanced Soft Skills Training
+detailed_background: The company has decided to shift its strategic direction, which
+  directly affects the current project. This scenario explores the dynamics of communicating
+  and managing change within a team.
+dialogue_script: {}
+emotional_and_cultural_sensitivity_notes: Be mindful of how change can affect team
+  members differently, based on their roles, experiences, and cultural backgrounds.
+feedback_mechanism: Provide a platform for team members to express their feedback
+  on the change process and their own adaptation to it.
+interactive_learning_points:
+- Change management requires clear communication, understanding team dynamics, and
+  the ability to motivate and guide others.
+objectives:
+  role-one: Successfully guide your team through the change process and ensure effective
+    adaptation.
+  role-two: Understand, adapt to, and actively engage in the new changes implemented
+    by the management.
+real_world_applications: Effective change management is crucial in any organization,
+  especially during times of strategic shifts or project redirections.
+reflective_questions:
+- How did the Change Manager handle the team's concerns about the change?
+- What strategies can the Employee use to adapt to new changes more effectively?
+roles:
+  role-one:
+    name: Change Manager
+    type: Leader
+  role-two:
+    name: Employee
+    type: Adaptable Worker
+scenario: A significant organizational change is impacting the current project. As
+  a Change Manager, you must effectively communicate and implement this change, ensuring
+  that your team adapts to the new direction.
+tips_and_best_practices:
+- Communicate changes clearly and provide a rationale to help the team understand
+  the reasons behind them.
+- Encourage open dialogue to address any concerns and involve the team in the change
+  process.
+title: Change Management Scenario
+win_check: The scenario is considered successful if the team effectively adapts to
+  the change with minimal disruption to the project.
+win_conditions:
+  role-one: Effectively communicate the change and manage the team's transition to
+    ensure project continuity.
+  role-two: Successfully adapt to the changes while maintaining productivity and a
+    positive attitude.

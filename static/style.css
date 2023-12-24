@@ -4,8 +4,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.75;
-    color: #333; /* Dark gray text color */
-    background-color: #f5f5f5; /* Light gray background */
+    color: #333;
+    /* Dark gray text color */
+    background-color: #f5f5f5;
+    /* Light gray background */
     margin: 0;
     padding: 0;
 }
@@ -21,7 +23,7 @@ body {
 }
 
 /* Chat bubbles */
-.user-message, .ai-message {
+.message {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
@@ -60,6 +62,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -73,15 +76,24 @@ body {
 
 .footer {
     text-align: center;
-    background-color: rgb(19, 17, 120);
+    background-color: rgb(184, 193, 249);
     position: fixed;
     left: 0;
-    padding-top: 50px;
     bottom: 0;
     width: 100%;
     color: white;
-    padding: 10px;
-    margin-top: 40px;
+}
+
+.foot {
+    text-align: center;
+    background-color: rgb(171, 171, 171);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    vertical-align: middle;
+    width: 100%;
+    color: white;
+    height: 4%;
 }
 
 .container {
@@ -98,7 +110,8 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Increased gap for more space */
+    gap: 15px;
+    /* Increased gap for more space */
     max-width: 95%;
     margin: 15px;
     padding: 15px;
@@ -112,10 +125,246 @@ body {
 .win-check-container {
     width: 95%;
     height: 775px;
-    padding: 20px;
+    margin: 15px;
+    padding: 10px;
     background-color: #fff;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
+    overflow: auto;
+}
+
+.stats {
+    display: grid;
+    grid-template-areas:
+        "title"
+        "score feedback";
+    padding: 10px;
+    background-color: #b9dac15c;
+    box-shadow: 0  8px 9px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    font-size: 22px;
+    height: auto;
+    margin-top: 25px;
+    }
+
+.title-right {
+    grid-area: "title";
+    text-align: right;
+    /* Right align the title */
+    margin-bottom: 5px;
+    /* Gives space between the title and score/feedback */
+}
+
+#winCheckButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.score {
+    grid-area: "score";
+    margin: 2px;
+    font-size: 42px;
+    color: rgb(35, 32, 216);
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.result {
+    margin: 2px;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    line-height: 15px;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.result2 {
+    display: flex;
+    margin: 2px;
+    font-size: 24px;
+    color: rgb(3, 42, 22);
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.result-text {
+    margin: 2px;
+    font-size: 20px;
+    color: rgb(2, 20, 17);
+    font-weight: 900;
+    line-height: 18px;
+    align-content: center;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.feedback-win {
+    margin: 2px;
+    font-size: 28px;
+    color: rgb(4, 20, 14);
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.ws {
+    grid-template-columns: 50% 50%;
+    /* Creates three columns */
+    grid-template-rows: 2fr;
+    /* Creates one row */
+    display: grid;
+    grid-area:
+        "role1 role1-text"
+        "role2 role2-text";
+    margin: 2px;
+    font-size: 28px;
+    color: rgb(12, 10, 108);
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.winner {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Creates three columns */
+    grid-template-rows: 1fr;
+    grid-area:
+        "winner winner-text";
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    margin: 2px;
+    font-size: 22px;
+    color: rgb(12, 10, 108);
+    font-weight: 900;
+    align-content: center;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.role1 {
+    grid-area: "role1";
+    margin: 2px;
+    font-size: 28px;
+    color: rgb(12, 10, 108);
+    text-shadow: 1px 1px 10px  rgba(207, 242, 203, 0.45);
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.role2 {
+    grid-area: "role2";
+    margin: 2px;
+    font-size: 28px;
+    color: rgb(12, 10, 108);
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.percentage {
+    grid-area: "percentage";
+    margin: 2px;
+    font-size: 28px;
+    color: rgb(12, 10, 108);
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.feedback {
+    grid-area: "feedback";
+    font-size: 17px;
+    color: rgb(10, 41, 8);
+    font-weight: 600;
+    margin-left: 10px;
+    /* Adds some space between the score and feedback */
+    line-height: 14px;
+    text-align: center;
+    vertical-align: middle
+}
+.winner-text {
+    grid-area: "winner-text";
+    font-size: 17px;
+    color: rgb(10, 41, 8);
+    font-weight: 600;
+    margin-left: 10px;
+    line-height: 20px;
+    /* Adds some space between the score and feedback */
+    line-height: 14px;
+    text-align: center;
+    vertical-align: middle
+}
+/* #winner1 {
+    font-size: 13px;
+    grid-area: "winner-text";
+    color: rgb(10, 41, 8);
+    font-weight: 600;
+    /* Adds some space between the score and feedback */
+    /* text-align: center;
+    vertical-align: middle; */
+/* } */ */
+.role1-text {
+    grid-area: "role1-text";
+    font-size: 17px;
+    color: rgb(10, 41, 8);
+    font-weight: 600;
+    margin-left: 10px;
+    /* Adds some space between the score and feedback */
+    line-height: 14px;
+    text-align: center;
+    vertical-align: middle
+}
+
+.role2-text {
+    grid-area: "role2-text";
+    font-size: 17px;
+    color: rgb(10, 41, 8);
+    font-weight: 600;
+    margin-left: 10px;
+    /* Adds some space between the score and feedback */
+    line-height: 14px;
+    text-align: center;
+    vertical-align: middle
+}
+
+.score-feedback {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Creates two columns for score and feedback */
+    grid-template-rows: 1fr;
+    /* Creates one row */
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(33, 62, 51);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    text-align: right;
 }
 
 /* Individual section styles */
@@ -134,9 +383,10 @@ body {
 .win-check-container {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-    width: 15vw;
+    width: 20vw;
     position: left;
 }
+
 h1 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -145,6 +395,7 @@ h1 {
     color: rgb(40, 24, 162);
     text-align: center;
 }
+
 .choose-card {
     background-color: rgba(207, 242, 203, 0.45);
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
@@ -152,10 +403,10 @@ h1 {
     border-radius: 8px;
     padding: 15px;
     margin-bottom: 20px;
-    height:auto;
+    height: auto;
     width: 650px;
     margin-left: 33vw;
-    margin-top: 16vh;
+    margin-top: 9vh;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -164,6 +415,7 @@ h1 {
     line-height: 3.25;
 
 }
+
 /* Card styles */
 .info-card {
     background-color: rgba(207, 242, 203, 0.45);
@@ -212,6 +464,15 @@ input[type="text"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    height: 50px;
+    /* 2 lines */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+    vertical-align: middle;
+    /* Align text vertically */
 }
 
 /* Button styles */
@@ -232,6 +493,7 @@ button:hover {
 .win-checks {
     text-align: center;
 }
+
 /* END: Additional styles */
 /*links*/
 a {
@@ -243,28 +505,56 @@ a {
     margin: 10px;
     line-height: 30px;
     border-radius: 5px;
-    }
+}
+
+.win-assesssment {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: #0074cc 3px solid;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: chartreuse;
+}
+
 a:hover {
-    color: rgb(19, 17, 120);
+    color: rgb(134, 233, 152);
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
     margin: 10px;
     background-color: chartreuse;
 }
+
 a:active {
-    color: rgb(19, 17, 120);
+    color: rgb(196, 250, 201);
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
     margin: 10px;
     background-color: chartreuse;
 }
+
 a:visited {
-    color: rgb(19, 17, 120);
+    color: rgb(160, 245, 153);
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
     margin: 10px;
     background-color: chartreuse;
+}
+
+#evaluationContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    margin: 10px;
 }

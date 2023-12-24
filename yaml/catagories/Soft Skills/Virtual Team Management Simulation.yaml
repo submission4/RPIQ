@@ -1,0 +1,9 @@
+category: Advanced Soft Skills Training
+roles:
+  role-one:
+    name: Remote Team Leader
+    type: Manager
+  role-two:
+    name: Remote Team Member
+    type: Collaborator
+title: Virtual Team Management Simulation

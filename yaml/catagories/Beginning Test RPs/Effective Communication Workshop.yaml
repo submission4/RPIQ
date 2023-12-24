@@ -1,0 +1,30 @@
+catagory: Beginning Test RPs
+title: "Effective Communication Workshop"
+roles:
+  role-one:
+    name: Alex
+    type: Facilitator
+  role-two:
+    name: Sarah
+    type: Participant
+objectives:
+  role-one:
+    - Teach effective communication techniques and soft skills.
+  role-two:
+    - Improve communication skills through interactive exercises.
+    - Develop strategies for better workplace communication.
+win_conditions:
+  role-one:
+    - Successfully convey key communication principles.
+    - Engage participants effectively.
+  role-two:
+    - Demonstrate improved communication skills during exercises.
+scenario:
+  - Alex is conducting a workshop on effective communication for professional development.
+  - Sarah, a participant, wants to enhance her soft skills to foster better collaboration within her team.
+  - Engage in various communication exercises, practice active listening, and discuss strategies for clear and concise communication in the workplace.
+game_data:
+  null
+win_check:
+  null
+  

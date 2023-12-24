@@ -1,0 +1,9 @@
+category: Soft Skills Training
+roles:
+  role-one:
+    name: Speaker
+    type: Presenter
+  role-two:
+    name: Audience Member
+    type: Feedback Giver
+title: Public Speaking Practice

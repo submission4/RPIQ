@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@amazonpay/amazon-pay-api-sdk-nodejs": "^2.3.1"
+  }
+}

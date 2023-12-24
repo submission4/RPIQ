@@ -1,0 +1,75 @@
+{
+    "category": "Beginning Test RPs",
+    "title": "The Negotiation Challenge",
+    "roles": [
+        {
+            "Buyer": "Alex Mitchell"
+        },
+        {
+            "Seller": "Emily Davis"
+        }
+    ],
+    "objectives": "objectives",
+    "win_conditions": "win_conditions",
+    "scenario": "# Scenario\nAlex Mitchell is a buyer looking to make a purchase, and Emily Davis is the seller. Both must engage in a negotiation to reach a mutually satisfactory agreement. Navigate the negotiation process, discuss terms, and work towards a deal that benefits both parties.\n- Alex Mitchell (Buyer): Clearly communicate your needs and negotiate for a favorable deal.\n- Emily Davis (Seller): Work to secure a profitable agreement while meeting the buyer's requirements.",
+    "win_check": [
+        {
+            "category": "Beginning Test RPs",
+            "title": "The Negotiation Challenge",
+            "roles": [
+                {
+                    "Buyer": "Alex Mitchell"
+                },
+                {
+                    "Seller": "Emily Davis"
+                }
+            ],
+            "objectives": [
+                {
+                    "Alex Mitchell (Buyer)": "Negotiate a favorable deal for a purchase."
+                },
+                {
+                    "Emily Davis (Seller)": "Secure a profitable agreement while meeting buyer's needs."
+                }
+            ],
+            "win_conditions": [
+                {
+                    "Alex Mitchell (Buyer)": "Successfully negotiate a deal that meets your needs and expectations."
+                },
+                {
+                    "Emily Davis (Seller)": "Secure a profitable agreement and ensure Alex is satisfied with the deal."
+                }
+            ],
+            "scenario": "# Scenario\nAlex Mitchell is a buyer looking to make a purchase, and Emily Davis is the seller. Both must engage in a negotiation to reach a mutually satisfactory agreement. Navigate the negotiation process, discuss terms, and work towards a deal that benefits both parties.\n- Alex Mitchell (Buyer): Clearly communicate your needs and negotiate for a favorable deal.\n- Emily Davis (Seller): Work to secure a profitable agreement while meeting the buyer's requirements.",
+            "user_role": "Buyer Alex Mitchell",
+            "ai_role": {
+                "Buyer": "Alex Mitchell"
+            }
+        },
+        "user: hi",
+        "ai: Hello Alex, I'm Emily Davis. It's a pleasure to meet you. What can I do for you today?",
+        "user: I'm interested in purchasing your product, but I'm hoping we can discuss the price.",
+        "ai: Great to hear from you! I'm sure we can find a price that works for both of us. What were you thinking?",
+        "user: I've done some market research, and I believe a fair price would be around $20,000. What are your thoughts?",
+        "ai: I appreciate your offer. However, considering the quality and features of our product, I was thinking more along the lines of $25,000.",
+        "user: I understand your point, but my budget is a bit tight. Could we meet in the middle at $22,500?",
+        "ai: That's a reasonable compromise. How about we include an extended warranty at that price to add value to your purchase?",
+        "user: That sounds like a good deal. I'm happy with $22,500 plus the extended warranty. Let's proceed with this.",
+        "ai: Fantastic! I'll prepare the necessary paperwork. It's been a pleasure negotiating with you, Alex.",
+        "user: Same here, Emily. Looking forward to doing more business with you in the future."
+    ],
+    "user_role": "{'Buyer': 'Alex Mitchell'}",
+    "ai_role": "{'Seller': 'Emily Davis'}",
+    "objectives0": {
+        "Alex Mitchell (Buyer)": "Negotiate a favorable deal for a purchase."
+    },
+    "objectives1": {
+        "Emily Davis (Seller)": "Secure a profitable agreement while meeting buyer's needs."
+    },
+    "win_condition0": {
+        "Alex Mitchell (Buyer)": "Successfully negotiate a deal that meets your needs and expectations."
+    },
+    "win_condition1": {
+        "Emily Davis (Seller)": "Secure a profitable agreement and ensure Alex is satisfied with the deal."
+    }
+}

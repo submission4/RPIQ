@@ -1,2 +1,5 @@
 # RPIQ
-rp with ai
+
+rp with aiwi
+
+win check needs fix

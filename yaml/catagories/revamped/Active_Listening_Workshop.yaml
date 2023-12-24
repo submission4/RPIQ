@@ -1,0 +1,80 @@
+category: Soft Skills Training
+debriefing_questions:
+- What strategies did the listener use to ensure they understood the message?
+- How effectively did the speaker convey their message?
+- What could have been done differently to enhance understanding?
+detailed_background: In this scenario, you are part of a team meeting where critical
+  feedback is being discussed. As a listener, your goal is to fully understand the
+  speaker's message and provide constructive feedback.
+dialogue_script:
+  intro:
+    ai: Welcome to the Active Listening Workshop. Today, we'll practice effective
+      listening skills.
+    ai_responses:
+      Can you tell me more about active listening?: Active listening involves fully
+        concentrating on the speaker, understanding their message, responding thoughtfully,
+        and remembering what was said.
+      Great, I'm ready to start.: Excellent! Let's begin with a common workplace scenario.
+    user_options:
+    - Great, I'm ready to start.
+    - Can you tell me more about active listening?
+  scenario_start:
+    ai: You're in a team meeting discussing project challenges. Your colleague is
+      expressing concerns about meeting deadlines.
+    ai_responses:
+      I understand your concern. What challenges are you facing with the deadlines?: I'm
+        struggling with the current workload and could use some assistance.
+      Maybe you should manage your time better.: That's a bit dismissive. I was hoping
+        for more support.
+    user_options:
+    - I understand your concern. What challenges are you facing with the deadlines?
+    - Maybe you should manage your time better.
+emotional_and_cultural_sensitivity_notes: Be aware of cultural differences in communication
+  styles. Some cultures may prefer indirect communication, while others are more direct.
+feedback_mechanism: After the roleplay, participants should provide feedback on each
+  other's listening and communication effectiveness.
+game_data: null
+guidance_on_role_behaviors:
+  role-one: Be clear and concise in your communication. Avoid jargon and be open to
+    questions.
+  role-two: Show that you are listening through body language and verbal acknowledgments.
+    Ask clarifying questions if needed.
+learning_points:
+- Remember to acknowledge the speaker's concerns and ask open-ended questions.
+- Avoid making judgments or dismissive comments.
+objectives:
+  role-one:
+  - Express your ideas and concerns.
+  role-two:
+  - Listen attentively and understand the speaker's perspective.
+possible_dialogue_starters:
+- 'Speaker: ''I want to discuss some areas where our team can improve...'''
+- 'Listener: ''I understand, could you elaborate on those areas?'''
+real_world_applications: These listening skills are crucial in meetings, negotiations,
+  and everyday communications to ensure mutual understanding and effective collaboration.
+reflective_questions:
+- How did your choice of response affect the conversation?
+- What could you do differently to be more supportive?
+roles:
+  role-one:
+    name: Speaker
+    type: Presenter
+  role-two:
+    name: Listener
+    type: Audience
+scenario:
+- A scenario centered around understanding and acknowledging others' perspectives.
+specific_goals:
+  role-one: Convey your message clearly and ensure it is understood.
+  role-two: Listen attentively, understand the message, and provide appropriate feedback.
+tips_and_best_practices:
+- Active listening involves more than just hearing; it requires understanding and
+  responding appropriately.
+- Maintain eye contact, nod, and use phrases like 'I see' to show engagement.
+title: Active Listening Workshop
+win_check: null
+win_conditions:
+  role-one:
+  - Communicate your points effectively.
+  role-two:
+  - Show comprehension and provide appropriate responses.

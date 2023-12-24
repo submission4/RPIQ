@@ -14,25 +14,29 @@
     </style>
 
     <title>Chat Page</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
 </head>
 <body>
    
 <div class="grid-container">
-    <div class="info-container"> <h1>{{ gameinfo.title }}</h1>
+    <div class="info-container"> <h1>{{ session.gameinfo.title }}</h1>
         <div class="info-card">
             <h2>User's - Things to Know</h2>
             <ul>
-                <li>{{ gameinfo.user_role }}</li>
-                <li>{{ gameinfo.objectives[0] }}</li>
-                <li>{{ gameinfo.win_conditions[0]}}</li>
+            <ul>
+                <li>{{ session.gameinfo.user_role[2:7] }}</li>
+                {{ session.gameinfo.user_role.1 }}</li>
+                <li>{{ session.gameinfo.objectives.0 }}</li>
+                <li>{{ session.gameinfo.win_conditions.0 }}</li>
             </ul>
             <h2>Ai's - Tasks</h2>
             <ul>
-                <li>{{ gameinfo.ai_role }}</li>
-                <li>{{ gameinfo.objectives[1] }}</li>
-                <li>{{ gameinfo.win_conditions[1] }}</li>
+                <li>{{ session.gameinfo.ai_role }}</li>
+                <li>{{ session.gameinfo.objectives.1 }}</li>
+                <li>{{ session.gameinfo.win_conditions.1 }}</li>
             
             </ul>   
         </div>
@@ -41,8 +45,8 @@
     <div class="message-container">
         <div id="messageHistory" class="message-history">
             <p><strong>Message History</strong></p>
-            <div id="usermessage" class="message user">         <h2><strong>Scene:       </strong> </h2> <p> {{ gameinfo.scenario }}</p></div>
-            <div id="aimessage" class="message ai">         <h2><strong>Scene:       </strong> </h2> <p> {{ gameinfo.scenario }}</p></div>
+            <div class="user message"  id="user">         <h2><strong>Scene:       </strong> </h2> <p> {{ session.gameinfo.scenario }}</p></div>
+            <div  class="ai message" id="ai">         <h2><strong>Scene:       </strong> </h2> <p> {{ session.gameinfo.scenario }}</p></div>
         </div>
 
         <div class="message-input">
@@ -52,69 +56,173 @@
             </form>
         </div>
     </div>
-
     <div class="win-check-container">
-        <div id="winChecks" class="win-checks">
-            <p><strong>Win Check</strong></p>
-            <button type="button" id="winCheckButton">Check Win</button>
-            <p id="winCheck"></p>
-        </div>
-    </div>
-</div>
-<div class="footer">
-    <p>Created by: ❤️Benny❤️</p>
-</div>
-    <script type="text/javascript" charset="utf-8">
-        var socket = io();
-
-        function appendMessage(sender, message) {
-            var messageHistory = document.getElementById("messageHistory");
-            var messageParagraph = document.createElement("p");
-            var messageText = document.createTextNode(message);
-            messageParagraph.appendChild(messageText);
-            if (sender == "user") {
-                messageParagraph.setAttribute("id", "usermessage");
-                messageParagraph.setAttribute("class", "message user");
-
-            } else if (sender == "ai") {
-                messageParagraph.setAttribute("id", "aimessage");
-                messageParagraph.setAttribute("class", "message ai");
-            }
-            messageHistory.appendChild(messageParagraph);
-            messageHistory.scrollTop = messageHistory.scrollHeight;
-        }
         
-        function sendMessage(event) {
-            event.preventDefault();
-            var messageInput = document.getElementById("messageInput");
-            var message = messageInput.value;
-            socket.emit("message",{"message": message});
-            messageInput.value = "";
-            appendMessage("user", message);
-        }
+            <p><strong>Win Check</strong></p>
+            
+                <button id="winCheckButton">Win Check</button>
+            
+            <div id="winCheckstat" class="winCheckstat"></div>
+                <div id="evaluation-results"></div>
+</div
+<script async src="https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js"></script>
+<div
+    data-ap-widget-type="expressPaymentButton"
+    data-ap-signature="O2w62virXShwNb1mtUqBdx1fvRWv2H0r6CgcSjSnlso%3D"
+    data-ap-seller-id="A81MS2RXQZUNR"
+    data-ap-access-key="AKIAJQT2GFN7SZJJPRRA"
+    data-ap-lwa-client-id="amzn1.application-oa2-client.20c481950e8d4b0296af7cd3fc4fdee1"
+    data-ap-return-url="http://www.recoveryrebels.org"
 
-        function checkWin() {
-            socket.emit('win_check',{'win_check': 'win_check'});
-        }
+        data-ap-cancel-return-url="http://www.recoveryrebels.org/cancel"
 
-        socket.on('connect', function() {
-            socket.emit('my event', {data: 'I\'m connected!'});
-        });
+    data-ap-currency-code="USD"
+    data-ap-amount="10.00"
+    data-ap-note="this is subscibtion to monthly RPIQ"
+    data-ap-shipping-address-required="false"
+    data-ap-payment-action="None"
+>
+</div>
 
-        socket.on('message', function(msg) {
-            if (msg.message) {
-                appendMessage("ai", msg.message);
-            } else if (msg.win_check) {
+<div class="footer">
+    <p class="foot"> Created by: ❤️ Benny ❤️ </p>
+</div>
 
-                var winCheck = document.getElementById("winCheck");
-                winCheck.innerHTML = msg.win_check;
-            }
-        });
-
-
-        document.getElementById("messageForm").addEventListener("submit", sendMessage);
-        document.getElementById("winCheckButton").addEventListener("click", checkWin);
+    <script>
+      // Assuming `jsonData` is your JSON data
+     
     
-    </script>
+      function createMetricsHTML(metrics) {
+        return Object.entries(metrics).map(([key, value]) => `
+          <div class="stats" id="${key.toLowerCase()}">
+            <h3 class="title-right">${key}:</h3>
+            <div class="score-feedback">
+              <div class="score">${value.Score}</div>
+              <p class="feedback">${value.Feedback}</p>
+            </div>
+          </div>
+        `).join('');
+      }
+    
+    
+      function createWinAssessmentHTML(winAssessment) {
+        return `
+          <div class="stats" id="win-assessment">
+            <p class="winner"><strong>Winner:</strong> ${winAssessment.Winner}</p>
+            <p class="winner-text"><strong>Reason for Win:</strong> ${winAssessment.ReasonForWin}</p>
+            <div class="score-feedback">
+              ${Object.entries(winAssessment.PercentageMetrics).map(([role, percentage]) => `
+                <p class="feedback"><strong>${role}:</strong> ${percentage}</p>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+    
+      // Main function to generate HTML
+      function generateEvaluationHTML(jsonData) {
+        const evaluationResults = document.getElementById('evaluation-results');
+
+        // Clear the HTML
+        evaluationResults.innerHTML = '';
+
+        // Generate Metrics HTML
+        evaluationResults.innerHTML += createWinAssessmentHTML(jsonData.WinAssessment);
+        evaluationResults.innerHTML += createMetricsHTML(jsonData.Metrics);
+    }
+
+        
+        // Generate Win Assessment HTML
+    
+      // Run the function with the provided data
+
+        // Add the missing import statement for the 'io' module
+        // FILEPATH: /c:/Users/submi/OneDrive/Documents/pythonProjects/rpiq/RPIQ/templates/chat.html
+            // Add the missing import statement for the 'io' module
+            // Add the missing import statement for the 'io' module
+                var socket = io();
+
+                // Add an event listener to the 'messageForm' that will emit the 'message' event
+                // and send the message to the server
+                document.getElementById('messageForm').addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const inputedMsg = document.getElementById('messageInput').value;
+                    const messageelement = document.createElement('div');
+                    const useris = "user"
+                    messageelement.setAttribute('class', 'user message');
+                    messageelement.innerHTML = `<h2><strong>${useris}  </strong> </h2> <p>${inputedMsg}</p>`;
+                    document.getElementById('messageHistory').appendChild(messageelement)
+                    var data = {
+                        sender: useris,
+                        message: inputedMsg
+                    };
+                    console.log(data)
+                    socket.emit('message', JSON.stringify(data));
+                    document.getElementById('messageInput').value = '';
+                    return false;
+                });
+
+                // Add an event listener to the 'winCheckButton' that will emit the 'winCheck' event
+                // and send the message to the server
+                document.getElementById('winCheckButton').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    socket.emit('win_check', "win_check");
+                    
+                    return false;
+                });
+                
+                // add socket event listeners here for win_check and message separately 
+                socket.on('message', function(msg) {
+                    console.log(msg);
+                    
+                    if (msg.sender == 'Ai' ) {
+                        console.log("ai")
+                        var message = document.createElement('div');
+                        //var messagedata = JSON.parse(msg);
+                        message.setAttribute('class', 'ai message');
+                        message.innerHTML = '<h2><strong>Ai:       </strong> </h2> <p>' + msg.message + msg.sender + '</p>';
+                        document.getElementById('messageHistory').appendChild(message);
+                        // this needs to be an elif statment for the win check and if it win check needs to parse the json and display the data with the generateEvaluationHTML function
+                    } else if (msg.sender == 'user') {
+                        console.log("user")
+                        var message = document.createElement('div');
+                        message.setAttribute('class', 'usermessage');
+                        message.innerHTML = `<div class="${msg.sender}<h2><strong>User:       </strong> </h2> <p>' + ${msg.message + msg.sender} + '</p>'</div>`;
+                        document.getElementById('messageHistory').appendChild(message);
+                    } else if (msg.sender == 'win_check') {
+                        console.log("win 4check")
+                        var woncheckelement = document.getElementById("win-check-container")
+                        var wcelement = document.createElement('div');
+                        wcelement.setAttribute('class', 'winCheckstat');
+
+                        message.setAttribute('class', 'stats');
+                        message.innerHTML = '<h2><strong></strong> </h2> <p>' + msg.message + '</p>';
+                    }
+                });
+                
+                // the win check listener should update the text of the 'winCheck' element
+                // with the message sent from the server
+                socket.on('win_check', function(msg) {
+                    console.log("wincheck")
+
+                    if (msg.message){
+                        const data = msg.message
+                        console.log("data\n",data)
+                        const winCheckstat = document.getElementById('winCheckstat');
+                        const json_data = JSON.parse(data);
+                        console.log("json_data\n",json_data)
+                        // now with the json data we can update the html
+                        generateEvaluationHTML(json_data)
+
+                        
+                    }
+                    else {
+                        console.log("no message")
+                    }
+                
+
+                
+                });
+            </script>
 </body>
 </html>
