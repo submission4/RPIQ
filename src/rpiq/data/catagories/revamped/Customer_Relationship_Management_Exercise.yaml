@@ -1,0 +1,38 @@
+category: Advanced Soft Skills Training
+detailed_background: In this exercise, you are either a customer service representative
+  handling customer inquiries or a customer seeking assistance. The focus is on effective
+  communication and customer satisfaction.
+dialogue_script: {}
+emotional_and_cultural_sensitivity_notes: Be aware of and respectful towards the emotional
+  state and cultural background of customers.
+feedback_mechanism: Encourage both the customer and the service representative to
+  provide feedback on their interaction to improve future customer service experiences.
+interactive_learning_points:
+- Customer relationship management involves not just solving problems but also building
+  trust and loyalty.
+objectives:
+  role-one: Effectively address customer inquiries and build a positive relationship.
+  role-two: Communicate your needs clearly and provide feedback on the service.
+real_world_applications: Effective customer relationship management is crucial in
+  all service industries, impacting customer loyalty and business success.
+reflective_questions:
+- How did the Customer Service Representative handle the customer's concerns?
+- What could the Customer do to facilitate better understanding and service?
+roles:
+  role-one:
+    name: Customer Service Representative
+    type: Communicator
+  role-two:
+    name: Customer
+    type: Client
+scenario: A scenario in which a customer service representative handles various customer
+  inquiries, aiming to resolve issues and enhance customer satisfaction.
+tips_and_best_practices:
+- Listen actively to the customer's needs and show empathy in your responses.
+- Maintain a positive attitude and offer solutions that meet the customer's needs.
+title: Customer Relationship Management Exercise
+win_check: The scenario is successful if the customer's needs are met and they are
+  satisfied with the service.
+win_conditions:
+  role-one: Successfully resolve customer issues and enhance their satisfaction.
+  role-two: Get your inquiries addressed satisfactorily and feel valued as a customer.

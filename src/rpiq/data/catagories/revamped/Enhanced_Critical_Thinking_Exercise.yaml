@@ -1,0 +1,49 @@
+category: Soft Skills Training
+detailed_background: In this exercise, a business faces a challenging problem that
+  requires critical analysis and strategic decision-making.
+dialogue_script:
+  intro:
+    ai: As an Analyst, let's discuss the current business challenge we're facing.
+    ai_responses:
+      Can you summarize the main issues for me?: Certainly. Our primary concern is
+        the significant drop in sales and customer engagement.
+      I've noticed a few areas of concern. Where should we start?: 'Let''s start by
+        examining the most pressing issue: our declining sales in the last quarter.'
+    user_options:
+    - I've noticed a few areas of concern. Where should we start?
+    - Can you summarize the main issues for me?
+emotional_and_cultural_sensitivity_notes: Be aware of how different cultural backgrounds
+  can influence problem-solving approaches and decision-making processes.
+feedback_mechanism: Encourage feedback on the problem-solving and evaluation process
+  to foster learning and improvement.
+interactive_learning_points:
+- Critical thinking involves not just identifying problems, but also evaluating different
+  solutions objectively.
+objectives:
+  role-one: Analyze a complex problem and propose logical solutions.
+  role-two: Evaluate the proposed solutions and decide on the best course of action.
+real_world_applications: Critical thinking is essential in business decision-making,
+  helping to navigate complex problems and find effective solutions.
+reflective_questions:
+- How did you approach the problem-solving process?
+- What criteria did you use to evaluate the proposed solutions?
+roles:
+  role-one:
+    name: Analyst
+    type: Problem Solver
+  role-two:
+    name: Manager
+    type: Evaluator
+scenario: A scenario that requires analytical skills to solve complex problems in
+  a business context.
+tips_and_best_practices:
+- Approach problems systematically, considering all relevant factors and potential
+  consequences.
+- Stay open to different perspectives and solutions.
+title: Critical Thinking Exercise
+win_check: The scenario is successful if a practical and effective solution is agreed
+  upon by both roles.
+win_conditions:
+  role-one: Develop a well-reasoned solution to the problem.
+  role-two: Select the most effective solution based on critical evaluation.
+

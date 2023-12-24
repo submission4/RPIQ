@@ -1,0 +1,37 @@
+category: Soft Skills Training
+detailed_background: You're in a project team that has been working towards a specific
+  goal. Suddenly, there's a major shift in the project requirements, and the team
+  needs to adapt quickly.
+dialogue_script: {}
+emotional_and_cultural_sensitivity_notes: Be mindful of how different team members
+  may react to change and provide support where needed.
+feedback_mechanism: After the roleplay, participants should discuss the effectiveness
+  of their adaptation strategies and share feedback.
+interactive_learning_points:
+- Adaptability is key in managing changes effectively and ensuring project success.
+objectives:
+  role-one: Lead the team through unexpected changes and adapt strategies accordingly.
+  role-two: Adjust to new situations and maintain productivity despite changes.
+real_world_applications: Adaptability is essential in today's fast-paced work environment,
+  where change is constant.
+reflective_questions:
+- How did you handle the unexpected change in the project?
+- What strategies did you use to adapt quickly?
+roles:
+  role-one:
+    name: Team Leader
+    type: Change Agent
+  role-two:
+    name: Team Member
+    type: Flexible Participant
+scenario: This scenario involves a sudden change in a project's direction, requiring
+  the team to adapt quickly.
+tips_and_best_practices:
+- Stay open-minded and flexible in your approach to new challenges.
+- Communicate effectively with your team to navigate changes together.
+title: Adaptability Challenge
+win_check: The scenario is successful if the team adapts to the change efficiently
+  without compromising the project's goals.
+win_conditions:
+  role-one: Successfully guide the team through the change and maintain performance.
+  role-two: Demonstrate adaptability and contribute effectively despite the changes.

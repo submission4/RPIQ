@@ -1,0 +1,43 @@
+category: Soft Skills Training
+detailed_background: In this exercise, a disagreement has arisen among team members
+  regarding the direction of a project. The Team Leader's role is to facilitate a
+  discussion to resolve this conflict.
+dialogue_script: {}
+emotional_and_cultural_sensitivity_notes: Be aware of different communication styles
+  and cultural backgrounds that can influence conflict dynamics.
+feedback_mechanism: Provide opportunities for participants to give and receive feedback
+  on their conflict resolution approach.
+game_data: null
+interactive_learning_points:
+- Conflict resolution involves understanding different viewpoints and finding a common
+  ground.
+objectives:
+  role-one:
+  - Guide the team through a conflict resolution process.
+  role-two:
+  - Express your viewpoint and work towards a mutually agreeable solution.
+real_world_applications: Conflict resolution skills are essential in any collaborative
+  environment, ensuring smooth team dynamics and problem-solving.
+reflective_questions:
+- What strategies did the Team Leader use to mediate the conflict?
+- How did the Team Member contribute to finding a resolution?
+roles:
+  role-one:
+    name: Team Leader
+    type: Facilitator
+  role-two:
+    name: Team Member
+    type: Participant
+scenario:
+- A scenario where team members navigate a workplace disagreement to achieve a harmonious
+  resolution.
+tips_and_best_practices:
+- Listen actively to all viewpoints and encourage open communication.
+- Focus on the problem, not the person, to find constructive solutions.
+title: Conflict Resolution Exercise
+win_check: null
+win_conditions:
+  role-one:
+  - Successfully mediate the conflict and reach a resolution.
+  role-two:
+  - Achieve a resolution that addresses your concerns and maintains team harmony.

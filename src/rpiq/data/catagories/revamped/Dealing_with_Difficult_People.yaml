@@ -1,0 +1,38 @@
+category: Advanced Soft Skills Training
+detailed_background: In this exercise, you will navigate a difficult interaction with
+  a client who is unhappy with the service or product. The challenge is to handle
+  the situation professionally and find a solution.
+dialogue_script: {}
+emotional_and_cultural_sensitivity_notes: Be aware of the emotional state of the client
+  and adjust your approach accordingly. Cultural differences can also play a role
+  in communication styles.
+feedback_mechanism: Provide an opportunity for both the employee and the client to
+  give feedback on the interaction after the roleplay.
+interactive_learning_points:
+- Dealing with difficult people requires patience, effective communication, and empathy.
+objectives:
+  role-one: Effectively manage and resolve conflicts with a challenging client.
+  role-two: Express concerns or dissatisfaction while maintaining a professional demeanor.
+real_world_applications: Mastering the art of dealing with difficult people is crucial
+  in customer service, sales, and other client-facing roles.
+reflective_questions:
+- How did you maintain composure when dealing with the difficult client?
+- What strategies did you use to understand and address the client's concerns?
+roles:
+  role-one:
+    name: Employee
+    type: Problem Solver
+  role-two:
+    name: Difficult Client
+    type: Challenger
+scenario: A scenario where an employee encounters a challenging client who has numerous
+  complaints and demands.
+tips_and_best_practices:
+- Stay calm and listen actively to understand the root of the client's dissatisfaction.
+- Avoid taking things personally and focus on finding a constructive solution.
+title: Dealing with Difficult People
+win_check: The scenario is successful if the conflict is resolved amicably and both
+  parties reach an understanding.
+win_conditions:
+  role-one: Successfully address the client's issues and de-escalate the situation.
+  role-two: Communicate your concerns effectively without escalating the conflict.

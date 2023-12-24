@@ -1,0 +1,44 @@
+# FILEPATH: /c:/Users/submi/OneDrive/Documents/pythonProjects/rpiq/RPIQ/json/static/startingWinData.yaml
+EvaluationTask: "Evaluate user interaction based on 'The Negotiation Challenge'"
+Metrics:
+    Relevance:
+        Score: 5
+        Feedback: "The user demonstrated a keen focus on the task by directly addressing the purchasing interest which is highly relevant to the negotiation scenario."
+    Clarity:
+        Score: 4
+        Feedback: "The user's intentions are clear, they are interested in buying a new computer. However, specifics regarding the requirements were not provided in the initial inquiry."
+    Completeness:
+        Score: 3
+        Feedback: "The user initiated the buying process but did not provide enough detail on what they are looking for in a new computer setup which is necessary for reaching a complete understanding."
+    Logic:
+        Score: 5
+        Feedback: "The user logically approached the conversation by showing interest and asking for the price, which is an appropriate first step in a negotiation about a purchase."
+    Creativity:
+        Score: 2
+        Feedback: "The user's approach was straightforward and lacked negotiation tactics that could foster creativity, such as proposing a starting price or specific conditions."
+    Engagement:
+        Score: 5
+        Feedback: "The user was engaged in the interaction, initiating the conversation with a friendly greeting and direct interest in the computer setup."
+    Politeness:
+        Score: 5
+        Feedback: "The user maintained a polite tone throughout the interaction which is conducive to a positive negotiation."
+    Adaptability:
+        Score: 4
+        Feedback: "The user reacted to the AI's request for more information adaptively, but this would be clearer with further interaction."
+    Language:
+        Score: 5
+        Feedback: "The language used was appropriate for the context of a negotiation, friendly and business-like."
+    Effectiveness:
+        Score: 4
+        Feedback: "The user's approach was effective in starting the negotiation, but there's room for improvement in strategy to optimize for desired outcomes."
+AnalysisOfWinConditions: "The user has begun the negotiation process effectively by expressing interest, setting a favorable foundation for future interactions."
+WinAssessment:
+    Winner: "--- TBD ---"
+    ReasonForWin: "The negotiation is in its early stages and the winner cannot be determined until further interactions unfold and final terms are discussed and agreed upon."
+    PercentageMetrics:
+        Role1:
+            - "Buyer"
+            - "98%"
+        Role2:
+            - "Seller"
+            - "55%"

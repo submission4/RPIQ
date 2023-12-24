@@ -1,0 +1,41 @@
+category: Soft Skills Training
+detailed_background: Comprehensive context and background for the scenario
+dialogue_script:
+  example_section:
+    ai: Sample AI dialogue
+    ai_responses:
+      User response option 1: AI response to option 1
+      User response option 2: AI response to option 2
+    user_options:
+    - User response option 1
+    - User response option 2
+emotional_and_cultural_sensitivity_notes: Notes on emotional or cultural aspects relevant
+  to the scenario
+feedback_mechanism: Method for users to provide and receive feedback on their performance
+interactive_learning_points:
+- Key learning points or tips relevant to the scenario
+objectives:
+  role-one: Develop and present innovative ideas for a given problem.
+  role-two: Critically analyze the presented ideas and provide constructive feedback.
+real_world_applications: Explanation of how skills practiced can be applied in real
+  life
+reflective_questions:
+- Reflective questions for after the scenario
+roles:
+  role-one:
+    name: Innovator
+    type: Idea Generator
+  role-two:
+    name: Evaluator
+    type: Critical Analyst
+scenario: A scenario that emphasizes brainstorming and evaluating creative solutions
+  to a business challenge.
+tips_and_best_practices:
+- Practical advice related to the skill or scenario
+title: Creative Thinking Workshop
+win_check: The scenario is successful if the Innovator's idea is both creative and
+  practical, and the Evaluator provides insightful analysis.
+win_conditions:
+  role-one: Successfully present a creative and viable idea.
+  role-two: Effectively analyze and provide feedback on the idea's feasibility and
+    innovation.

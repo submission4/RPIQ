@@ -1,0 +1,39 @@
+category: Soft Skills Training
+detailed_background: In this training, the team is working on a global project that
+  requires understanding and integrating diverse cultural backgrounds and perspectives.
+dialogue_script: {}
+emotional_and_cultural_sensitivity_notes: Be sensitive to cultural nuances and avoid
+  stereotypes. Recognize that cultural expressions and communication styles may vary.
+feedback_mechanism: Provide a platform for team members to share their experiences
+  and feedback on cultural interactions within the team.
+interactive_learning_points:
+- Cultural competency involves being aware of your own cultural worldview while gaining
+  knowledge of different cultural practices and worldviews.
+objectives:
+  role-one: Foster an inclusive and culturally aware team environment.
+  role-two: Contribute diverse perspectives and understand different cultural viewpoints.
+real_world_applications: Cultural competency is key in global business environments,
+  ensuring effective communication and collaboration across different cultures.
+reflective_questions:
+- How did you handle cultural differences within the team?
+- What strategies can be employed to improve cultural understanding and inclusivity?
+roles:
+  role-one:
+    name: Global Team Lead
+    type: Cultural Ambassador
+  role-two:
+    name: International Team Member
+    type: Cultural Contributor
+scenario: A scenario focusing on working effectively in a culturally diverse team,
+  addressing cultural misunderstandings and promoting inclusivity.
+tips_and_best_practices:
+- Encourage open dialogue about cultural differences and be receptive to learning
+  from others.
+- Acknowledge and celebrate diverse cultural practices within the team.
+title: Cultural Competency Training
+win_check: The scenario is successful if the team demonstrates understanding and respect
+  for cultural diversity, leading to effective collaboration.
+win_conditions:
+  role-one: Create a team culture that values and integrates diverse cultural perspectives.
+  role-two: Effectively communicate your cultural viewpoint and collaborate with team
+    members from different backgrounds.

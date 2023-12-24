@@ -1,0 +1,39 @@
+category: Soft Skills Training
+detailed_background: In this roleplay, you are placed in a typical office setting
+  where one colleague is going through a tough time. The goal is to practice empathy
+  by actively listening, acknowledging their feelings, and responding appropriately.
+dialogue_script: {}
+emotional_and_cultural_sensitivity_notes: Be aware of different emotional expressions
+  and respect cultural differences in communication styles.
+feedback_mechanism: After the roleplay, provide a space for participants to discuss
+  what they learned and how they felt during the interaction.
+interactive_learning_points:
+- Active empathy involves not just hearing, but also understanding and sharing the
+  feelings of another.
+objectives:
+  role-one: Practice demonstrating empathy in workplace interactions.
+  role-two: Communicate personal experiences and observe empathetic responses.
+real_world_applications: Empathy is crucial in building strong workplace relationships
+  and can lead to more effective teamwork and communication.
+reflective_questions:
+- How did it feel to share your experience and receive an empathetic response?
+- What strategies did you use to demonstrate empathy?
+roles:
+  role-one:
+    name: Employee
+    type: Empathy Practitioner
+  role-two:
+    name: Colleague
+    type: Interaction Partner
+scenario: You will engage in a conversation where one colleague shares a challenging
+  personal experience and the other responds empathetically.
+tips_and_best_practices:
+- Use phrases like 'I understand' or 'That must be tough' to show empathy.
+- Pay attention to non-verbal cues to better understand the other person's feelings.
+title: Active Empathy Workshop
+win_check: The scenario is successful if both participants feel the conversation was
+  empathetic and constructive.
+win_conditions:
+  role-one: Successfully demonstrate understanding and empathy in response to your
+    colleague's experience.
+  role-two: Effectively communicate your experience and feel heard and understood.

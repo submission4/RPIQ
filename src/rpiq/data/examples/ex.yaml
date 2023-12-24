@@ -1,0 +1,58 @@
+type: Scenario 
+{
+   title: String ,
+   category: String ,
+   detailedBackground: String ,
+   dialogueScript: DialogueScript ,
+   emotionalAndCulturalSensitivityNotes: String ,
+   feedbackMechanism: String ,
+   interactiveLearningPoints: [String] ,
+   objectives: Objectives realWorldApplications: String ,
+   reflectiveQuestions: [String] ,
+   roles: Roles ,
+   scenario: String ,
+   tipsAndBestPractices: [String] ,
+   winCheck: String ,
+   winConditions: WinConditions,
+   }
+
+type: DialogueScript 
+{ 
+  exampleSection: ExampleSection,
+  userOptions: [String],
+}
+
+type: ExampleSection 
+{ 
+  ai: String ,
+  aiResponses: AiResponses,
+  }
+
+type: AiResponses 
+{ 
+  userResponseOption1: String ,
+  userResponseOption2: String,
+  }
+
+type: Objectives
+ { 
+ roleOne: String, 
+ roleTwo: String,
+ }
+
+type: Roles 
+{ 
+  roleOne: Role ,
+  roleTwo: Role,
+  }
+
+type: Role 
+{ name: String ,
+type: String,
+}
+
+type: WinConditions
+ {
+  roleOne: String, 
+  roleTwo: String,
+  }

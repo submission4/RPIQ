@@ -1,0 +1,27 @@
+catagory: "Beginning Test RPs"
+title: "Team Communication Workshop"
+roles:
+  role-one:
+    name: "Mike"
+    type: "Team Leader"
+  role-two:
+    name: "Emily"
+    type: "Team Member"
+objectives:
+  role-one:
+    - "Strengthen team bonds and improve communication within the group."
+  role-two:
+    - "Participate actively, contribute ideas, and enhance teamwork."
+    - "Develop a plan for ongoing communication improvement."
+win_conditions:
+  role-one:
+    - "Witness improved team collaboration during retreat activities."
+    - "Observe enhanced communication within the team."
+  role-two:
+    - "Contribute positively to team-building exercises."
+    - "Actively participate in discussions."
+scenario:
+  - "Mike, the team leader, organizes a retreat to improve team dynamics and communication. Emily, a team member, is enthusiastic about fostering a positive and collaborative work environment. Engage in team-building activities, share thoughts on communication challenges, and collaboratively create an action plan for continuous improvement."
+game_data: null
+win_check: null
+
