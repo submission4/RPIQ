@@ -1,0 +1,51 @@
+feedback_prompt:
+  title: "Would you like some feedback on your recent interaction?"
+  options:
+    - yes: "Sure, I'd love some feedback!"
+    - no: "No thanks, maybe later."
+
+feedback_content:
+  if_yes:
+    interaction_overview: "Here's an overview of how your interaction went:"
+    tone_analysis:
+      summary: "The emotional tone of your conversation was mostly [positive/negative/neutral]."
+      suggestion: "Try to [maintain this tone/shift to a more positive tone] for better engagement."
+    conversation_flow_analysis:
+      summary: "The dialogue was [well-balanced/dominated by one side]."
+      suggestion: "Encourage a more balanced exchange by [asking questions/allowing more space for responses]."
+    topic_relevance_engagement:
+      summary: "The topics discussed were [highly relevant/somewhat off-topic]."
+      suggestion: "Consider bringing up [related topics/questions] to keep the conversation engaging."
+    empathy_understanding_indicators:
+      summary: "Your use of empathetic language was [effective/needs improvement]."
+      suggestion: "Demonstrate empathy by [specific actions or phrases]."
+    conflict_resolution_management:
+      summary: "There were [no conflicts/some disagreements] in the conversation."
+      suggestion: "Handle disagreements by [specific strategies]."
+    personalization_contextual_relevance:
+      summary: "Your conversation was [well-tailored/generic] to the situation."
+      suggestion: "Make your interactions more personalized by [specific actions]."
+    cultural_social_sensitivity:
+      summary: "Your cultural and social sensitivity was [appropriate/needs attention]."
+      suggestion: "Be more culturally sensitive by [specific actions or awareness]."
+    goal_oriented_feedback:
+      summary: "Your conversation [aligned with/did not align with] your communication goals."
+      suggestion: "Focus on [specific goals] to improve your conversation outcome."
+    questioning_techniques_feedback:
+      summary: "Your questioning techniques were [effective/could be improved]."
+      suggestion: "Use more [open-ended/targeted] questions to enhance dialogue."
+    last_message_impact:
+      positive: "Your last message added clarity and depth to the conversation."
+      negative: "Your last message may have seemed a bit abrupt. Consider elaborating more next time."
+    suggestions_for_continuing:
+      - "You might explore this topic further by asking about their experiences."
+      - "A good way to deepen the conversation could be to share a related personal story."
+    usefulness_of_continuation:
+      useful: "Continuing this interaction can strengthen your connection and understanding."
+      not_useful: "If the topic seems exhausted, it might be more productive to gracefully exit the conversation."
+    additional_insights:
+      - "Your tone has been consistently positive, which helps in building rapport."
+      - "You've maintained a good balance between listening and speaking."
+
+  if_no:
+    message: "Alright, feel free to ask for feedback anytime. Enjoy your conversations!"
