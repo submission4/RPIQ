@@ -1,0 +1,50 @@
+```yaml
+category: Soft Skills Training
+roles:
+  role-one:
+    name: Negotiator A
+    type: Seller
+  role-two:
+    name: Negotiator B
+    type: Buyer
+title: Negotiation Skills Training
+detailed_background: |
+  In this scenario, Negotiator A (the Seller) is looking to secure a deal with Negotiator B (the Buyer) for selling a bulk consignment of electronic goods. The sellers are under pressure to clear last season's inventory while the buyers are looking for the best possible deal to maximize their retail margins. Both parties have their objectives and need to navigate the negotiation to reach a mutually beneficial agreement.
+dialogue_script:
+  example_section:
+    ai: "Welcome, I believe we are here to discuss the potential sale of electronic goods. I represent the interests of the seller. Shall we begin?"
+    ai_responses:
+      "Certainly, I'd like to know more about the products.": "Of course, I am prepared to show you the product catalog and discuss the features, quantities, and your needs."
+      "I'd propose a lower starting price given the market conditions.": "I appreciate your offer. Let's discuss what value both of us can bring to this deal and find a suitable price point."
+    user_options:
+    - "Certainly, I'd like to know more about the products."
+    - "I'd propose a lower starting price given the market conditions."
+emotional_and_cultural_sensitivity_notes: |
+  It is important to maintain a professional demeanor throughout the negotiation process. Be mindful of cultural differences that may affect communication styles and negotiation tactics. Sensitivity to the other party's needs and perspectives will aid in reaching a harmonious solution.
+feedback_mechanism: |
+  After the negotiation, participants will receive feedback based on the objectives they achieved, their communication effectiveness, and whether the negotiation tactics resulted in a beneficial outcome. This feedback can be provided by a designated moderator or through self-assessment tools and peer discussion.
+interactive_learning_points:
+- Key negotiation strategies (e.g., BATNA, value creation, mutual gains)
+- Effective communication techniques (active listening, framing)
+- Cultural competency in negotiation
+objectives:
+  role-one: Achieve a sales agreement without compromising on the minimum acceptable price.
+  role-two: Obtain the goods at the lowest reasonable price while ensuring quality and timely delivery.
+real_world_applications: |
+  Negotiation skills are vital in many real-world situations, from securing advantageous terms on a business deal to diplomatically resolving conflicts in a team setting. Learning to negotiate effectively can lead to better outcomes in professional and personal interactions.
+reflective_questions:
+- "What strategies proved most effective in reaching the negotiation goals?"
+- "How did each party’s negotiating style influence the outcome?"
+- "What could have been done differently to achieve a better result?"
+scenario: |
+  Negotiator A representing the company selling electronic goods is working to clear inventory. Negotiator B represents a retail company looking to purchase items for resale. They have diverse priorities but need to collaborate to reach an advantageous deal.
+tips_and_best_practices:
+- Always have a clear understanding of your objectives and limits before entering a negotiation.
+- Develop rapport and show respect towards the other party to facilitate cooperative negotiation.
+- Explore creative solutions that can provide additional value to both parties instead of focusing solely on price.
+win_check: |
+  The session is successful if both negotiators have reached an accord that meets or exceeds their minimum desired outcomes while maintaining a positive business relationship.
+win_conditions:
+  role-one: Finalize the sale at or above the predetermined minimum price point.
+  role-two: Secure a purchase agreement that is at or below the budget threshold with favorable terms.
+```

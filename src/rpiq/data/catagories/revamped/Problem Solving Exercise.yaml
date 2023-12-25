@@ -1,0 +1,62 @@
+```yaml
+category: Soft Skills Training
+detailed_background: |
+  In this scenario, the Project Lead has noticed a significant drop in the productivity of their team over the past quarter. They need to engage with the Team Member to identify underlying issues and collaborate on finding effective solutions to improve the team's performance.
+
+dialogue_script:
+  example_section:
+    ai: "I've noticed our project deadlines have been slipping more often lately. Let's review our workflow and identify any bottlenecks."
+    ai_responses:
+      "I think we're all just overworked and burned out.": "I understand your concern. Let's discuss how we can manage our workload more effectively and consider possible adjustments."
+      "Our software tools are outdated and causing delays.": "Good point. Identifying the right tools could be crucial. Shall we look into potential upgrades?"
+    user_options:
+    - "I think we're all just overworked and burned out."
+    - "Our software tools are outdated and causing delays."
+
+emotional_and_cultural_sensitivity_notes: |
+  Be mindful of the pressures and stress levels that team members might be experiencing. Encourage open communication where team members feel safe to share their concerns without fear of negative consequences.
+
+feedback_mechanism: |
+  After the role-play, participants receive feedback based on their problem-solving approach, communication skills, and ability to work collaboratively towards a solution.
+
+interactive_learning_points:
+- Recognizing signs of decreased productivity and addressing them promptly.
+- Encouraging open dialogue and active listening.
+- Evaluating and restructuring workflow as necessary.
+
+objectives:
+  role-one: Developing problem identification strategies and leading the team towards effective solutions.
+  role-two: Contributing constructively to the problem-solving process and collaborating with the Project Lead.
+
+real_world_applications: |
+  Problem-solving skills are essential in a professional environment. Being able to quickly identify problems, communicate with the team, and implement solutions can lead to increased productivity and a positive work culture.
+
+reflective_questions:
+- What are the most common signs that a team is facing productivity issues?
+- How can a leader effectively facilitate problem-solving discussions?
+
+roles:
+  role-one:
+    name: Project Lead
+    type: Problem Identifier
+  role-two:
+    name: Team Member
+    type: Solution Contributor
+
+scenario: |
+  The Project Lead and Team Member are in a meeting to discuss recent project setbacks and brainstorm potential solutions to enhance team productivity.
+
+tips_and_best_practices:
+- Frame the conversation around finding solutions, rather than placing blame.
+- Keep an open mind to team members' feedback and be willing to make changes.
+- Consider implementing regular check-ins to monitor progress and adjust plans accordingly.
+
+title: Problem Solving Exercise
+
+win_check: |
+  Success in the scenario is when the Project Lead and Team Member have identified the primary issues affecting productivity and have outlined a clear plan of action to address those issues.
+
+win_conditions:
+  role-one: Successfully identifies problems and works with the Team Member to create an action plan.
+  role-two: Actively participates in the discussion and contributes actionable solutions.
+```

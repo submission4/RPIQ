@@ -1,0 +1,50 @@
+```yaml
+category: Soft Skills Training
+roles:
+  role-one:
+    name: Communicator
+    type: Interaction Initiator
+  role-two:
+    name: Responder
+    type: Interaction Participant
+title: Interpersonal Skills Development
+detailed_background: |
+  In the rapidly evolving workplace, effective communication and interpersonal skills are paramount for fostering productive relationships and teamwork. This scenario is designed to replicate a work environment where a Communicator must relay sensitive information to a Responder, managing the situation with tact, empathy, and clarity.
+dialogue_script:
+  example_section:
+    ai: "I wanted to talk about the feedback you received during our last project. I believe there's a lot we can learn from it."
+    ai_responses:
+      "I'm open to hearing about it. What's the feedback?": "Thank you for being receptive. The feedback is regarding the need for clearer communication on project deliverables."
+      "I'd rather not discuss this now, can it wait?": "I understand that it might not be the best time, but I believe it's crucial for our growth. How about we schedule a time that works for you?"
+    user_options:
+    - "I'm open to hearing about it. What's the feedback?"
+    - "I'd rather not discuss this now, can it wait?"
+emotional_and_cultural_sensitivity_notes: |
+  Ensure that the dialogue takes into account different communication styles and cultural backgrounds. It is important to approach the conversation with respect, without making assumptions about the Responder's perspectives.
+feedback_mechanism: |
+  After the interaction, the participants will receive constructive feedback from a neutral observer, emphasizing strengths and areas for improvement. A feedback form will also be available for participants to self-assess and reflect on their performance.
+interactive_learning_points:
+- Recognizing the importance of setting a positive tone when initiating sensitive conversations.
+- Understanding the different approaches to giving and receiving feedback.
+- Learning to navigate a conversation with empathy, maintaining respect for cultural differences.
+objectives:
+  role-one: To effectively communicate sensitive feedback while maintaining a constructive atmosphere.
+  role-two: To actively listen and respond to feedback, demonstrating openness and professionalism.
+real_world_applications: |
+  The skills practiced in this scenario can be applied to various real-life situations, including, but not limited to, performance reviews, team meetings, or even day-to-day communications that require a high level of emotional intelligence and interpersonal adeptness.
+reflective_questions:
+- "How did you feel during the interaction, and what impact did your emotional state have on the conversation?"
+- "What strategies did you utilize to ensure the feedback was received in a positive and constructive manner?"
+- "How might you apply these communication skills to your everyday interactions within the workplace?"
+scenario: |
+  A scenario where a team leader (Communicator) needs to discuss the outcome of a recent project with a team member (Responder), focusing on conveying constructive feedback while fostering an atmosphere of growth and learning.
+tips_and_best_practices:
+- Practice active listening by acknowledging the speaker's points and asking clarifying questions.
+- Use "I" statements to express your perspective without assigning blame or creating defensiveness.
+- Frame feedback as an opportunity for growth, rather than solely critiquing past performance.
+win_check: |
+  The scenario is considered successful if both parties effectively communicate their points, the Respondent feels heard and understood, and the conversation concludes with actionable next steps.
+win_conditions:
+  role-one: To have effectively communicated the feedback and collaborate on creating a plan for improvement.
+  role-two: To have demonstrated an understanding of the feedback and expressed a commitment to apply the learnings.
+```

@@ -1,0 +1,56 @@
+title: "Community Custody Compliance: The Case of Absconding"
+category: "Criminal Justice System Training"
+scenario: "An office visit where a CCO confronts a person in custody who has absconded and is now facing consequences."
+detailed_background: >
+  The scenario unfolds in a Washington State Department of Corrections office. The CCO is meeting with an individual who has violated the terms of their community custody by absconding for an excessive period and failing to maintain their approved residence in the city to which they were transferred. The person in custody has recently been apprehended and brought back to the original city.
+
+roles:
+  role-one:
+    name: "Community Custody Officer"
+    type: "Facilitator"
+  role-two:
+    name: "Person in Community Custody"
+    type: "Participant"
+
+dialogue_script:
+  example_section:
+    ai: "I've reviewed your case and noticed you absconded from your approved residence. Can you explain what happened?"
+    ai_responses:
+      "I had personal issues and had to leave": "I understand personal issues can be challenging, but absconding is a serious violation. Let's discuss how we can address these issues within the guidelines."
+      "I don't want to talk about it": "It's important to communicate about these issues so we can find a solution together. Your cooperation is essential for your successful reintegration."
+    user_options:
+    - "I had personal issues and had to leave"
+    - "I don't want to talk about it"
+
+objectives:
+  role-one: "To assess the situation, understand the reasons for absconding, and determine appropriate actions while maintaining professional conduct."
+  role-two: "To communicate the reasons for absconding and work towards a resolution with the CCO."
+
+win_conditions:
+  role-one: "Successfully assesses the situation and outlines a clear plan for moving forward."
+  role-two: "Openly communicates their reasons and engages in finding a solution."
+
+emotional_and_cultural_sensitivity_notes: >
+  Be aware of the emotional state of the person in custody. They might feel stressed or defensive. The CCO should approach the situation with empathy while upholding the rules. Cultural sensitivity is also crucial; understanding the individual’s background may provide insights into their actions.
+
+feedback_mechanism: "After the roleplay, participants receive feedback based on their communication, empathy, conflict resolution skills, and adherence to protocol."
+
+interactive_learning_points:
+- "Importance of effective communication in difficult conversations."
+- "Balancing empathy with the enforcement of rules."
+- "Strategies for conflict resolution and de-escalation."
+
+real_world_applications: >
+  This scenario is relevant for CCOs and other law enforcement officers who deal with similar situations in their daily duties. The skills practiced here, such as empathy, effective communication, and conflict resolution, are critical in real-life law enforcement and correctional settings.
+
+reflective_questions:
+- "How effectively did you communicate your points?"
+- "What could have been done differently to better understand and resolve the situation?"
+- "How did you balance empathy with the need to enforce rules?"
+
+tips_and_best_practices:
+- "Always maintain a calm and professional demeanor."
+- "Listen actively and empathetically to understand the individual's perspective."
+- "Clearly communicate the consequences of actions and the importance of following community custody guidelines."
+
+win_check: "The roleplay is considered successful if both roles meet their objectives and demonstrate effective communication and problem-solving skills."

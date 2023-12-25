@@ -1,41 +1,105 @@
-}# FILEPATH: /c:/Users/submi/OneDrive/Documents/pythonProjects/rpiq/RPIQ/json/static/wincheckprompt.yaml
 EvaluationTask: "Evaluate user interaction"
 Metrics:
-    Relevance: 
+    Relevance:
         score: 1-5
         feedback: "Rate how the interaction aligns with the original prompt (1-5)"
-    Clarity: "Assess the clarity of the user's instructions or questions (1-5)"
+    Clarity:
         score: 1-5
         feedback: "Rate how clear the user's instructions or questions are (1-5)"
-    completeness: "Evaluate if all necessary details are provided (1-5)"
+    Completeness:
         score: 1-5
         feedback: "Evaluate if all necessary details are provided (1-5)"
-    Logic: "Gauge the logic behind the user's statements (1-5)"
+    Logic:
         score: 1-5
         feedback: "Gauge the logic behind the user's statements (1-5)"
-    Creativity: "Rate the user's creativity and exploration (1-5)"
+    Creativity:
         score: 1-5
         feedback: "Rate the user's creativity and exploration (1-5)"
-    Engagement: "Assess user engagement with model responses (1-5)"
+    Engagement:
         score: 1-5
         feedback: "Assess user engagement with model responses (1-5)"
-    Politeness: "Evaluate the politeness and tone of the interaction (1-5)"
+    Politeness:
         score: 1-5
-        feedback: "Evaluate the politeness and tone of the interaction (1-5)" 
-    Adaptability: "Determine adaptability to model's outputs (1-5)"
+        feedback: "Evaluate the politeness and tone of the interaction (1-5)"
+    Adaptability:
         score: 1-5
         feedback: "Determine adaptability to model's outputs (1-5)"
-    Language: "Check appropriateness of the language used (1-5)"
+    Language:
         score: 1-5
         feedback: "Check appropriateness of the language used (1-5)"
-    Effectiveness: "Give an overall effectiveness rating (1-5)"
+    Effectiveness:
         score: 1-5
         feedback: "Give an overall effectiveness rating (1-5)"
-AnalysisOfWinConditions: "Review user's interaction history to assess win conditions"  
+AnalysisOfWinConditions: "Review user's interaction history to assess win conditions"
 WinAssessment:
     Winner: "Name or description of the winner, if applicable"
     ReasonForWin: "Explanation of what led to the win"
     PercentageMetrics:
         Role1: "Percentage success rate for Role 1"
         Role2: "Percentage success rate for Role 2"
+UnderstandingOfObjectives: "Assess how well the user understands the objectives of the interaction"
+    description: "Assess how clearly and effectively the participant's objectives are defined and pursued in the roleplay."
+    rating_scale: "1 to 5, where 1 is poor and 5 is excellent"
+    pros:
+        - "Clarity and relevance of stated objectives"
+        - "Alignment with role-specific needs and goals"
+    cons:
+        - "Lack of specific details or measurable objectives"
+        - "Vagueness or misalignment of objectives with role"
+    improvements:
+        - "Specify objectives with measurable outcomes"
+        - "Ensure objectives are closely aligned with role responsibilities and goals"
+CommunicationSkills: "Evaluate the participant's communication skills"
+    description: "Evaluate the clarity, effectiveness, and appropriateness of communication during the roleplay."
+    rating_scale: "1 to 5, where 1 is poor and 5 is excellent"
+    pros:
+        - "Effective and clear communication style"
+        - "Positive and respectful interaction"
+    cons:
+        - "Need for more assertiveness or clarity"
+        - "Indirect or ineffective communication methods"
+    improvements:
+        - "Adopt a more assertive and direct communication style"
+        - "Focus on clarity and effectiveness in conveying messages"
+CreativeProblemSolving: "Assess the participant's ability to creatively solve problems"
+    description: "Measure the ability to propose innovative and effective solutions during the roleplay."
+    rating_scale: "1 to 5, where 1 is poor and 5 is excellent"
+    pros:
+        - "Innovative and creative solution proposals"
+        - "Focus on finding mutually beneficial outcomes"
+    cons:
+        - "Lack of creative or effective solutions"
+    improvements:
+        - "Explore and propose more innovative solutions"
+        - "Focus on solutions that offer mutual benefits"
+FlexibilityAndCompromise: "Evaluate the participant's ability to adapt and find compromise"
+    description: "Look at how well the participant adapts to changing scenarios and finds compromise."
+    rating_scale: "1 to 5, where 1 is poor and 5 is excellent"
+    pros:
+        - "Willingness to adapt and find middle ground"
+        - "Effective compromise without sacrificing key goals"
+    cons:
+        - "Rigidity or unwillingness to adapt"
+        - "Compromises that undermine key objectives"
+    improvements:
+        - "Demonstrate more flexibility in negotiation"
+        - "Find compromises that balance goals and adaptability"
+ClosingTheDeal: "Assess the participant's ability to close the deal"
+    description: "Assess how effectively the negotiation is concluded and next steps are established."
+    rating_scale: "1 to 5, where 1 is poor and 5 is excellent"
+    pros:
+        - "Successful and clear conclusion of the negotiation"
+        - "Effective establishment of next steps and follow-ups"
+    cons:
+        - "Inconclusive or vague ending to the negotiation"
+        - "Lack of clear next steps or follow-up plans"
+    improvements:
+        - "Focus on a clear and decisive conclusion"
+        - "Specify next steps and establish a follow-up plan"
+OverallRating: "Evaluate the participant's overall performance in the roleplay"
+    description: "Provide an aggregated evaluation of the participant's overall performance in the roleplay."
+    rating_scale: "1 to 5, where 1 is poor and 5 is excellent"
+additional_notes:
+    - "This schema is designed for educational purposes to enhance negotiation skills in roleplay scenarios."
+    - "Participants can use this for self-evaluation or be evaluated by others to identify strengths and areas for improvement."
 ResponseFormat: "Provide scores and brief feedback for each metric, determine the winner, and explain the reason for the win with percentage metrics for each role, formatted as a yaml object"

@@ -1,11 +1,10 @@
 feedback_prompt:
-  title: "Would you like some feedback on your recent interaction?"
+  title: "+
   options:
     - yes: "Sure, I'd love some feedback!"
     - no: "No thanks, maybe later."
 
 feedback_content:
-  if_yes:
     interaction_overview: "Here's an overview of how your interaction went:"
     tone_analysis:
       summary: "The emotional tone of your conversation was mostly [positive/negative/neutral]."
@@ -46,6 +45,3 @@ feedback_content:
     additional_insights:
       - "Your tone has been consistently positive, which helps in building rapport."
       - "You've maintained a good balance between listening and speaking."
-
-  if_no:
-    message: "Alright, feel free to ask for feedback anytime. Enjoy your conversations!"

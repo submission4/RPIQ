@@ -1,0 +1,43 @@
+```yaml
+category: Advanced Soft Skills Training
+detailed_background: This scenario places participants in a corporate setup where an Ethics Officer and a Stakeholder are debating a course of action with significant ethical implications. The Ethics Officer has uncovered a potential conflict of interest that could affect the company's reputation while the Stakeholder is concerned about the financial outcomes of addressing the issue.
+dialogue_script:
+  example_section:
+    ai: "As the Ethics Officer, I believe we must disclose this conflict of interest to maintain transparency and uphold our company's integrity."
+    ai_responses:
+      "Let's handle it internally, without making it public. It could hurt our stock prices.": "While I understand the concern for our financial status, our ethical guidelines require full disclosure in such cases."
+      "I agree. Our reputation for ethical practices is more valuable in the long run.": "Exactly, I'm glad you see the bigger picture. Upholding our ethical standards will benefit us in the long term."
+    user_options:
+    - "Let's handle it internally, without making it public. It could hurt our stock prices."
+    - "I agree. Our reputation for ethical practices is more valuable in the long run."
+emotional_and_cultural_sensitivity_notes: Be aware of the implications that different cultures have on the perception of ethics. Consider the emotional tension between corporate responsibility and personal/financial gains.
+feedback_mechanism: Participants receive feedback through a combination of peer review, self-assessment, and facilitator guidance after the roleplay is completed.
+interactive_learning_points:
+- Recognizing and resolving ethical dilemmas
+- Balancing stakeholder interests with ethical obligations
+- Communicating ethical decisions effectively
+objectives:
+  role-one: Provide a resolution that upholds the organization's ethical standards without compromising its financial viability.
+  role-two: Understand and acknowledge ethical concerns while representing and defending stakeholders' financial interests.
+real_world_applications: Addressing ethical dilemmas is a critical skill in any business environment. The ability to make ethically sound decisions fosters trust with clients, partners, and within the team, and can protect the company from legal issues.
+reflective_questions:
+- How would you balance the immediate financial impact against long-term ethical considerations?
+- In what ways can ethical behavior contribute to a company's success?
+roles:
+  role-one:
+    name: Ethics Officer
+    type: Decision Maker
+  role-two:
+    name: Stakeholder
+    type: Influencer
+scenario: A heated discussion ensues as the Ethics Officer presents evidence of a conflict of interest affecting the company, while the Stakeholder argues for a more pragmatic, less transparent approach.
+tips_and_best_practices:
+- Always align decisions with the company's stated values and ethics code.
+- Consider the broader impact of decisions, including public perception and legal ramifications.
+- Engage in open dialogue with all parties to ensure all perspectives are considered.
+title: Ethical Decision Making Exercise
+win_check: Both roles should demonstrate a clear understanding of the ethical stakes and arrive at a resolution that aligns with the company's core values.
+win_conditions:
+  role-one: Successfully convinces the Stakeholder of the importance of transparency and ethical practices.
+  role-two: Acknowledges the ethical dilemma and cooperates in finding a solution that minimizes financial risks.
+```

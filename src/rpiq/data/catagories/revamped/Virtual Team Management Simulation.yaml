@@ -1,0 +1,71 @@
+```yaml
+category: Advanced Soft Skills Training
+detailed_background: >
+  In an increasingly remote professional environment, the Virtual Team Management Simulation is designed to
+  cultivate advanced leadership and collaboration skills. Participants will navigate various challenges encountered when
+  managing virtual teams, such as communication barriers, project coordination, and maintaining team morale.
+  
+dialogue_script:
+  example_section:
+    ai: "As team leader, how will you address the recent decline in team productivity?"
+    ai_responses:
+      "I will schedule a team meeting to discuss current challenges and seek solutions.": "Great initiative! Open communication is key in a remote setup."
+      "I will individually reach out to team members to understand personal hurdles.": "Personal attention can indeed help uncover underlying issues and strengthen rapport."
+    user_options:
+    - "I will schedule a team meeting to discuss current challenges and seek solutions."
+    - "I will individually reach out to team members to understand personal hurdles."
+  
+emotional_and_cultural_sensitivity_notes: >
+  This scenario considers diverse cultural backgrounds and remote work challenges. It emphasizes supportive communication
+  and active listening to maintain an inclusive work environment while recognizing individual contributions and challenges.
+  
+feedback_mechanism: >
+  Feedback will be provided through a virtual facilitator's real-time evaluation and a self-assessment form that measures
+  the effectiveness of the interactions and decisions made during the simulation.
+  
+interactive_learning_points:
+- Effective communication in a remote setting.
+- Strategies for virtual team engagement and productivity.
+- Methods of providing support to team members working from different locations.
+
+objectives:
+  role-one: Successfully lead a virtual team through a project, ensuring effective communication and team cohesion.
+  role-two: Actively participate in project tasks while effectively communicating with the team leader and other members.
+
+real_world_applications: >
+  The skills gained from this simulation are directly transferable to any remote work environment where virtual team
+  management is crucial. These include effectively running remote meetings, managing projects with distributed teams, and
+  fostering an inclusive and productive virtual workplace.
+
+reflective_questions:
+- "How can virtual team leaders create a culture of openness and trust remotely?"
+- "What are some techniques for effectively managing and recognizing the work of a remote team?"
+
+roles:
+  role-one:
+    name: Remote Team Leader
+    type: Manager
+  role-two:
+    name: Remote Team Member
+    type: Collaborator
+
+scenario: >
+  The simulation scenarios will involve a series of remote work challenges that the team leader and members must navigate together.
+  The success in these scenarios will depend on communication prowess, problem-solving skills, and the ability to maintain team
+  morale in a digital work environment.
+
+tips_and_best_practices:
+- Clearly define team roles, responsibilities, and expectations in a remote setting.
+- Use appropriate communication tools to maintain regular and clear communication.
+- Cultivate team bonding through virtual team-building exercises.
+
+title: Virtual Team Management Simulation
+
+win_check: >
+  The win conditions will have been met when both the team leader and member display proficient use of virtual communication
+  tools, maintain productivity, and achieve the project objectives within the provided timeframe.
+
+win_conditions:
+  role-one: Achieve project goals while maintaining high team morale and engagement.
+  role-two: Effectively manage individual tasks and maintain clear communication with the team leader and peers.
+```

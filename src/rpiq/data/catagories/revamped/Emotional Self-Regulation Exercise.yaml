@@ -1,0 +1,51 @@
+```yaml
+category: Soft Skills Training
+roles:
+  role-one:
+    name: Employee
+    type: Self-Regulator
+  role-two:
+    name: Manager
+    type: Observer
+title: Emotional Self-Regulation Exercise
+detailed_background: |
+  In this scenario, an Employee is receiving constructive criticism from a superior after a performance review. The Employee must utilize emotional self-regulation techniques to process feedback effectively, respond appropriately, and plan for improvement without becoming defensive or overwhelmed.
+dialogue_script:
+  example_section:
+    ai: "I noticed your projects this quarter missed several deadlines. Let's discuss how we can improve time management and project delivery."
+    ai_responses:
+      "Thank you for the feedback. I'll reflect on my time management and work on a plan for improvement.":
+        "It's great to see you taking this constructively. We can schedule a follow-up meeting to discuss your plan."
+      "I've had a lot on my plate, and the deadlines were unrealistic.":
+        "It's important to communicate early when you feel deadlines are not achievable. Let's figure out how you can approach this in the future."
+    user_options:
+    - "Thank you for the feedback. I'll reflect on my time management and work on a plan for improvement."
+    - "I've had a lot on my plate, and the deadlines were unrealistic."
+emotional_and_cultural_sensitivity_notes: |
+  Be conscious of the tone used when providing feedback. Ensure the language is supportive, not accusatory. Be aware of cultural differences in the way feedback is received and perceived.
+feedback_mechanism: |
+  Role-play participants will receive feedback through a debrief session with the Manager character, who will provide insights on the Employee's responses and suggest areas for improvement.
+interactive_learning_points:
+- Recognizing the importance of emotional self-regulation in a professional setting
+- Learning to receive and process constructive criticism without emotional escalation
+- Identifying strategies for communicating difficulties or disagreements in a professional manner
+objectives:
+  role-one: Utilize emotional self-regulation to constructively receive and act upon feedback.
+  role-two: Observe the Employee's response to feedback and provide guidance for emotional self-regulation.
+real_world_applications: |
+  Mastering emotional self-regulation is crucial for professional growth. It allows individuals to handle workplace challenges, collaborate effectively with others, and maintain a positive work environment.
+reflective_questions:
+- "How did you feel when receiving feedback, and how did you manage those emotions?"
+- "What strategies can you use in the future to better handle criticism?"
+scenario: |
+  An Employee has been experiencing challenges with time management, affecting project deadlines. The Manager approaches the conversation with the aim of providing constructive feedback and supporting the Employee in finding solutions to improve performance.
+tips_and_best_practices:
+- Take deep breaths to maintain composure when receiving feedback.
+- Acknowledge issues, and show a willingness to improve.
+- Communicate any challenges or needs early on to prevent future misunderstandings.
+win_check: |
+  Success in the scenario is determined by the Employee's ability to receive feedback without becoming defensive, engaging in proactive discussion about improvement, and the Manager's ability to provide constructive, actionable advice.
+win_conditions:
+  role-one: Employee demonstrates emotional self-regulation and creates a plan for improvement.
+  role-two: Manager effectively delivers feedback and supports Employee development.
+```

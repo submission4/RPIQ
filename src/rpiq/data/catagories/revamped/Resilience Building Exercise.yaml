@@ -1,0 +1,50 @@
+```yaml
+category: Soft Skills Training
+detailed_background: |
+  In this scenario, the team is facing significant challenges with a high-profile project. The Team Leader must guide and motivate the Team Member to navigate obstacles and sustain a positive mindset. The scenario replicates a stress-test meeting in which resilience strategies are discussed and implemented. It serves as a microcosm of workplace pressure and offers insights into maintaining team morale.
+dialogue_script:
+  example_section:
+    ai: "As we face these challenges, it’s crucial to adapt and show resilience. What strategies do you think we can employ to overcome this situation?"
+    ai_responses:
+      "We need to re-evaluate our approach and find alternatives.": "That's a good start. Adaptability is key. Let's brainstorm some alternative strategies together."
+      "I’m not sure, but I can try to stay positive and learn from this experience.": "Maintaining a positive outlook is crucial. Reflecting on experiences ensures we grow and improve. Let's identify the learning opportunities here."
+    user_options:
+    - "We need to re-evaluate our approach and find alternatives."
+    - "I’m not sure, but I can try to stay positive and learn from this experience."
+emotional_and_cultural_sensitivity_notes: |
+  Be mindful of individual stress thresholds and cultural differences in expressing and managing emotions. Resilience is personal and culturally nuanced; what signifies resilience in one culture might be considered differently in another.
+feedback_mechanism: |
+  After each exchange, participants will receive encouraging feedback based on their dialogue choices. Constructive critique will be offered discreetly to facilitate growth.
+interactive_learning_points:
+- Understanding the components of resilience and their application in a team context.
+- Learning how to communicate effectively during stressful times.
+- Developing strategies to adapt and thrive amid challenges.
+objectives:
+  role-one: To coach the Team Member through a resilience-building process.
+  role-two: To demonstrate active engagement in developing resilience and overcome workplace challenges.
+real_world_applications: |
+  The resilience-building skills practiced in this scenario can help individuals bounce back from setbacks more effectively in the workplace, and can also be translated into personal life challenges, promoting overall well-being.
+reflective_questions:
+- "What strategies helped in maintaining a positive perspective?"
+- "How did adaptability play a role in navigating the situation?"
+- "In what ways can we apply the resilience skills developed here to future challenges?"
+roles:
+  role-one:
+    name: Team Leader
+    type: Resilience Coach
+  role-two:
+    name: Team Member
+    type: Challenge Facer
+scenario: |
+  In a fast-paced, high-pressure environment, the Team Leader and Team Member collaborate to tackle a project with looming deadlines and complex issues. They discuss strategies for maintaining resilience amidst the pressure.
+tips_and_best_practices:
+- Recognize individual efforts and achievements, big or small, to foster resilience.
+- Maintain open and honest communication to address issues proactively.
+- Promote a team culture that values learning and growth from challenges.
+title: Resilience Building Exercise
+win_check: |
+  The scenario is considered successful when the participants demonstrate an understanding of resilience strategies and apply them to the conversation effectively.
+win_conditions:
+  role-one: Successfully coaches the Team Member and identifies at least 3 resilience strategies.
+  role-two: Actively contributes to the discussion and exhibits a positive approach to overcoming obstacles.
+```

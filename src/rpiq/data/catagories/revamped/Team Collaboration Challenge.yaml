@@ -1,0 +1,47 @@
+```yaml
+category: Soft Skills Training
+detailed_background: |
+  In the Team Collaboration Challenge, participants will simulate a workplace setting where they must collaborate to complete a project. The scenario is designed to place team members in situations that reflect real-life dynamics and decision-making found within team projects. The deeper context involves navigating differing opinions, time management, effective communication, and leveraging individual team member's strengths to achieve the project goal.
+dialogue_script:
+  example_section:
+    ai: "As we approach our project deadline, I'd like to check in on everyone's progress. Are there any roadblocks we need to address?"
+    ai_responses:
+      "I'm having trouble understanding the project requirements.": "I appreciate your honesty. Let's clarify the requirements together so you can move forward confidently."
+      "I'm on track, but I believe we need more resources.": "Thank you for the update. Let's discuss your resource needs and see how we can allocate them appropriately."
+    user_options:
+    - "I'm having trouble understanding the project requirements."
+    - "I'm on track, but I believe we need more resources."
+emotional_and_cultural_sensitivity_notes: |
+  Be mindful that participants may come from diverse cultural backgrounds and have varying emotional sensitivities. Ensure that all team members feel respected and valued, and that the diversity is seen as a strength. Encourage an inclusive environment where feedback is constructive and everyone has the confidence to voice their opinions or concerns.
+feedback_mechanism: Peer Review and AI Moderated Feedback
+interactive_learning_points:
+- Recognizing the value of clear communication in a team setting.
+- Understanding the importance of each member's contributions.
+- Identifying and overcoming common teamwork challenges.
+objectives:
+  role-one: Lead the team towards successful project completion.
+  role-two: Contribute effectively to the team project.
+real_world_applications: |
+  The skills practiced in the Team Collaboration Challenge can be directly applied to any professional environment where teamwork is fundamental. Learning how to leverage each team member's strengths and communicate effectively can lead to improved collaboration, increased productivity, and a more harmonious working environment in real-world projects.
+reflective_questions:
+- "What strategies did you find most effective for leading the team towards success?"
+- "How can the strengths of individual team members be better utilized in future projects?"
+roles:
+  role-one:
+    name: Project Manager
+    type: Coordinator
+  role-two:
+    name: Team Member
+    type: Collaborator
+scenario: |
+  Participants are part of a project team that is in the middle of a critical project. The Project Manager and Team Members will navigate interpersonal dynamics, resource management, and various unforeseen challenges to successfully achieve their project goals. Effective communication, compromise, and strategic problem-solving are key to overcoming the obstacles that arise.
+tips_and_best_practices:
+- Prioritize open communication to ensure all team members are on the same page.
+- Encourage a culture of feedback where constructive criticism is given and received positively.
+- Build trust amongst team members by showing respect for their ideas and contributions.
+title: Team Collaboration Challenge
+win_check: Achievement of project goals without compromising team dynamics
+win_conditions:
+  role-one: Ensure smooth collaboration and timely project completion.
+  role-two: Actively participate and contribute to the team's success.
+```

@@ -1,0 +1,50 @@
+```yaml
+category: Soft Skills Training
+detailed_background: |
+  This scenario involves practicing public speaking skills in a controlled environment. The Speaker presents a topic of their choice to an Audience, who listens and provides constructive feedback on their presentation skills, such as clarity, engagement, and delivery.
+dialogue_script:
+  example_section:
+    ai: "Thank you all for being here today. I will be presenting on the importance of renewable energy."
+    ai_responses:
+      "Can you clarify how renewable energy reduces pollution?": "Certainly! Renewable energy sources like wind and solar power emit no pollutants into the air, which means they can help reduce the rate of climate change."
+      "I think you could engage us more by asking questions.": "That's a great suggestion. Let me ask you all, how many of you have considered installing solar panels at home?"
+    user_options:
+    - "Can you clarify how renewable energy reduces pollution?"
+    - "I think you could engage us more by asking questions."
+emotional_and_cultural_sensitivity_notes: |
+  Ensure the topic chosen for the presentation is culturally neutral and sensitive to all audiences. Avoid controversial or emotionally charged topics unless they are essential to the learning objectives and handled with care.
+feedback_mechanism: |
+  After the presentation, the Audience Member provides structured feedback focusing on specific aspects of the Speaker's performance. This can include a verbal discussion or a written feedback form rating different presentation elements.
+interactive_learning_points:
+- Emphasizing key points through vocal variety and body language.
+- Encouraging audience engagement by asking questions or including interactive elements in the presentation.
+- Coping with public speaking anxiety.
+objectives:
+  role-one: Deliver a coherent and engaging presentation utilizing effective public speaking strategies.
+  role-two: Provide constructive and actionable feedback to improve the Speaker's public speaking skills.
+real_world_applications: |
+  Effective public speaking is essential in a variety of professional contexts, including team meetings, client presentations, and industry conferences. Developing these skills can greatly enhance one's ability to inform, persuade, and lead others.
+reflective_questions:
+- "What were the strongest elements of the presentation, and why?"
+- "How effectively did the Speaker engage the audience?"
+- "What techniques can the Speaker use to better manage nervousness during a presentation?"
+roles:
+  role-one:
+    name: Speaker
+    type: Presenter
+  role-two:
+    name: Audience Member
+    type: Feedback Giver
+scenario: |
+  The Speaker has been tasked with preparing a short presentation on a topic relevant to their interests or field of work. The Audience Member is present to observe the presentation and provide feedback on various aspects, such as the clarity of the message, engagement strategies, and the Speaker's confidence and poise.
+tips_and_best_practices:
+- "Start your presentation with a hook to grab the audience's attention immediately."
+- "Use storytelling to make your presentation more relatable and memorable."
+- "Practice your presentation multiple times to increase confidence."
+title: Public Speaking Practice
+win_check: |
+  Success is measured by the Speaker's ability to present information clearly and engagingly and the Audience Member's capability to give clear, actionable feedback.
+win_conditions:
+  role-one: The Speaker successfully delivers a presentation that is clear, well-structured, and engaging, with minimal reliance on notes.
+  role-two: The Audience Member provides specific, constructive feedback that the Speaker can use for improvement.
+```
